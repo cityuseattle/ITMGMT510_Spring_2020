@@ -19,7 +19,7 @@ print(C);
 A <- t(A);
 print(A);
 
-
+#challenge 01
 D <- matrix(c(3, 3, 3), nrow=3, ncol=3,
 dimnames=list(c("X", "Y", "Z"), c("a", "b", "c")));
 
