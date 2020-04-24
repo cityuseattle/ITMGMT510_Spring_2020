@@ -1,0 +1,2 @@
+A <- matrix(c(1, 2, 3, 4, 6, 7, 8, 9, 0), nrow=3, ncol=3);
+print(A);
