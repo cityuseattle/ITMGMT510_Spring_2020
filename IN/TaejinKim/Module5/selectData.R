@@ -1,0 +1,7 @@
+data <- read.csv(file= "iris2.csv", header=TRUE, sep=",")
+
+res <- subset(data, variety=="Setosa")
+
+#print(data)
+
+write.csv(res,"result.csv")
