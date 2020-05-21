@@ -1,0 +1,12 @@
+library(ggplot2)
+
+df<-mtcars
+
+print(head(df))
+
+#data&aesthetics layer
+pl<-ggplot(data=df,aes(x=wt,y=mpg))
+
+#geometry layer
+#adding the data&aesthetics layer with geom layer
+print(pl+geom_point(aes(color=hp),size=4)+scale_color_gradient(high='red',low='blue'))
