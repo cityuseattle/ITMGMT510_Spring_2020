@@ -50,4 +50,4 @@ mse <- mean((results$real-results$pred)^2)
 
 print('MSE')
 
-print(mse)
+print(mse)r
